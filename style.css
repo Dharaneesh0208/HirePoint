@@ -103,7 +103,7 @@ button{
 
 /* Cards */
 
-.cards{
+.features{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
