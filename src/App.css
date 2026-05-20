@@ -1,0 +1,141 @@
+body {
+    margin:0;
+    font-family:Arial;
+    background:black;
+    color:white;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+/* Header */
+header {
+    background:black;
+    position:sticky;
+    top:0;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+nav h1 {
+    color:cyan;
+}
+
+ul {
+    display:flex;
+    list-style:none;
+}
+
+ul li {
+    margin:0 15px;
+}
+
+ul li a {
+    text-decoration:none;
+    color:white;
+}
+
+button {
+    padding:12px 22px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.loginbtn {
+    background:white;
+    color:black;
+}
+
+.signupbtn {
+    background:cyan;
+    color:black;
+}
+
+/* Hero */
+.hero {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(to right,black,navy);
+}
+
+.content {
+    width:60%;
+}
+
+.content h2 {
+    font-size:60px;
+    color:cyan;
+}
+
+.content p {
+    font-size:20px;
+    margin:20px 0;
+}
+
+.content button {
+    background:cyan;
+    color:black;
+}
+
+/* About */
+.about {
+    padding:100px 60px;
+    text-align:center;
+    background:darkslategray;
+}
+
+.about h2 {
+    color:cyan;
+}
+
+/* Cards */
+.cards {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.card {
+    width:220px;
+    margin:20px;
+    padding:25px;
+    background:darkblue;
+    border-radius:15px;
+    color:white;
+}
+
+.card h3 {
+    color:cyan;
+}
+
+/* Footer style */
+footer {
+    text-align:center;
+    padding:40px;
+    background:black;
+    color:cyan;
+}
+
+/* Inputs */
+input {
+    padding:12px;
+    margin:10px;
+    border-radius:10px;
+    border:none;
+}
+
+form button {
+    background:cyan;
+    color:black;
+}
